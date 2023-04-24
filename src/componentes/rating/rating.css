@@ -1,0 +1,65 @@
+.rating-container{
+    height: 264px;    
+    background: #FFFFFF;
+    width: 100%;
+    justify-content: space-around;
+    padding: 0 9rem;
+    margin-top: 5rem;
+    align-items: center;
+    display: flex;
+    margin-bottom: 5rem;
+}
+.rating{
+    display: flex;
+    flex-direction: column;
+}
+.rating-text{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.1px;    
+    color: #252B42;
+}
+.rating-total{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 800;
+font-size: 58px;
+line-height: 80px;
+text-align: center;
+letter-spacing: 0.2px;
+color: #FF685B;
+
+}
+
+@media screen and (max-width: 800px) {
+   .rating-container{
+    padding: 0;
+   }
+   .rating-total{
+    font-size: 40px;
+   }
+      }
+
+      @media screen and (max-width: 600px) {
+        .rating-container{
+         padding: 0;
+         height: auto;
+         margin-bottom: 2rem;
+         margin-top: 2rem;
+        }
+        .rating-total{
+         font-size: 18px;
+        }
+        .rating-text{
+            font-size: 10px;
+        }
+           }
+           @media screen and (max-width: 380px) {
+           .rating-container{
+            flex-direction: column;
+           }
+               }

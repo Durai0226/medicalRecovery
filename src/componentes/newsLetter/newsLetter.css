@@ -1,0 +1,132 @@
+.news-container{
+margin-bottom: 10rem;
+}
+.news-details-container{
+
+}
+.news-heading{
+
+}
+.news-text{
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FF685B;
+    margin-bottom: 1.5rem;
+}
+.news-head{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    letter-spacing: 0.2px;    
+    color: #252B42;
+}
+.news-details{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #737373;
+    margin-bottom: 4rem;
+}
+.news-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 27%;
+    margin: 0 auto;
+    margin-top: 1rem;
+}
+.input-with-button {
+    display: flex;
+    align-items: center;
+margin: 0 auto;
+width: 574px;
+height: 58px;
+  }
+  
+  .input-with-button input {
+    flex: 1;
+    padding: 1.26rem;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+  
+  }
+  
+  .input-with-button button {
+   
+    border: none;
+    width: 117px;
+   height: 58px;
+   background: #FF685B;
+border: 1px solid #E6E6E6;
+border-radius: 0px 5px 5px 0px;
+    color: #fff;
+    cursor: pointer;
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 28px;
+text-align: center;
+letter-spacing: 0.2px;
+
+  }
+
+  
+    /* Mobile responsive */
+ 
+    @media screen and (max-width: 1150px) {
+     
+        .news-content{
+            width: 50%;
+        }
+    }
+    @media screen and (max-width: 600px) {
+      .news-content{
+        width: 85%;
+      }
+      .news-head{
+        font-size: 35px
+      }
+      .news-text{
+        margin-bottom: 0.5rem;
+      }
+      .input-with-button{
+        width: 350px;
+        height: auto;
+      }
+      .input-with-button input{
+        padding: 0.83rem;
+      }
+      .input-with-button button{
+        height: 44.15px;
+      }
+      .news-container{
+        margin-bottom: 2rem;
+      }
+     }
+
+     @media screen and (max-width: 380px) {
+        .department-text{
+font-size: 14px;
+        }
+        .news-head{
+         font-size: 22px;
+        }
+        .input-with-button{
+            width: 300px;
+            height: auto;
+          }
+            }

@@ -1,0 +1,296 @@
+.department-container{
+    background: #E5F9F7;
+    margin-bottom: 10rem;
+
+}
+.department{
+    padding: 0 9rem;
+
+}
+.department-heading{
+padding-top: 8rem;
+}
+
+.department-text{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;    
+    color: #FF685B;  
+    margin-bottom: 1rem;
+}
+.department-content{
+    width: 28%;
+    margin-bottom: 5rem;
+}
+.department-details{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+.department-head{
+    font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 50px;
+margin-bottom: 1rem;
+letter-spacing: 0.2px;
+color: #252B42;
+}
+.department-card-container{
+ width: 100%;
+ margin-bottom: 10rem;
+ display: flex;
+
+
+}
+
+.department-card{
+    width: 92%;
+
+}
+.Dcard{
+
+}
+.Dcard-container{
+    background-image: url('../assets/product-cover-1.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 325px;
+}
+.Dcard-container-1{
+    background-image: url('../assets/product-cover-2.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 325px;
+}
+.Dcard-container-2{
+    background-image: url('../assets/product-cover-3.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 325px;
+}
+.sale-btn{
+    padding: 1.5rem;
+}
+.btn-3{
+    background: #E74040;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+    color: #fff;
+    width: 51px;
+    height: 24px;
+    border: none;
+    transition: all 0.2s ease-in-out;
+
+}
+.btn-3:hover {
+    background: #D63030;
+    cursor: pointer;
+  }
+.product{
+    width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 0 1rem;
+   padding-top: 12rem;
+}
+.product-icon{
+width:40px;
+height:40px;
+cursor: pointer;
+}
+.department-card-details{
+width: 94%;
+}
+.department-card-text{
+
+display: flex;
+justify-content: space-between;
+margin-bottom: 0.3rem;
+}
+.Dcard-text{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;  
+    letter-spacing: 0.2px;
+    color: #FF685B;
+}
+.star-container{
+    width: 50px;
+    height: 26px;
+    background: #26335D;
+    border-radius: 20px;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.star{
+
+}
+.department-container-1{
+width: 92%;
+padding: 1rem;
+background: #FFFFFF;
+}
+.Dcard-text-1{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.1px;
+color: #252B42;
+
+}
+.department-details-container{
+    width: 90%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.department-details-1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;    
+    letter-spacing: 0.2px;    
+    color: #737373;
+}
+.sales-container{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+.sales{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+.price-container{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.price{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: #BDBDBD;
+}
+.price-1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: #5AACA8;
+    
+}
+.department-btn-container{
+    width: 141.14px;
+    height: 44px;
+    border: 1px solid #FF685B;
+    border-radius: 37px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+.department-btn{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    text-decoration: none;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #FF685B;
+}
+.link-1{
+    margin-left: 0.8rem;
+}
+.department-main-container{
+    transition: transform 0.2s ease-in-out;
+}
+.department-main-container:hover {
+    transform: scale(1.1);
+ 
+}
+
+    /* Mobile responsive */
+ 
+    @media screen and (max-width: 1150px) {
+        .department{
+            padding:0 2rem;
+            
+        }
+        .department-content{
+            width: 50%;
+        }
+    }
+    
+    @media screen and (max-width: 800px) {
+        .department-card-container{
+            flex-direction: column;
+            gap: 4rem 0;
+            align-items: center;
+            
+        }
+        .department-main-container{
+            width: 60%;
+        }
+    }
+    @media screen and (max-width: 600px) {
+       
+        .department-main-container{
+            width: 100%;
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+        }
+        .department-content{
+            width: 100%;
+        }
+        .department{
+            padding: 0 1rem;
+        }
+        .department-container{
+            margin-bottom: 3rem;
+        }
+    }
+
+    @media screen and (max-width: 380px) {
+        .department-text{
+font-size: 14px;
+        }
+        .department-head{
+         font-size: 22px;
+        }
+            }
